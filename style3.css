@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fg: #e1ebff;
+  --mg: rgba(133, 180, 255, 0.25);
+  --bg: #1e1941;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    --fg: #1e1941;
+    --mg: rgba(45, 90, 190, 0.5);
+    --bg: rgb(133, 180, 255, 1);
+  }
+
+  #logo {
+    fill: #1e1941;
+  }
+}
+body.light {
+  --fg: #1e1941;
+  --mg: #3578e5;
+  --bg: rgb(133, 180, 255, 1);
+}
+body.light #logo {
+  fill: #1e1941;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.875em;
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+body,
+main {
+  padding: 1em;
+}
+
+header {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color: var(--bg);
+  z-index: 1;
+  margin: -1em;
+  padding: 1em;
+}
+header #logo {
+  width: 12em;
+  height: auto;
+}
+
+main {
+  max-width: 64rem;
+  margin: 4em auto 0;
+  overflow: auto;
+  line-height: 1.5;
+}
+main section {
+  overflow: hidden;
+}
+main section,
+main article {
+  margin-bottom: 0.5em;
+}
+main .w66.ico {
+  position: relative;
+  overflow: hidden;
+}
+main iframe {
+  z-index: -3;
+  opacity: 0.05;
+}
+
+a {
+  color: var(--fg);
+  fill: var(--fg) !important;
+}
+
+h4 {
+  padding-bottom: 0.25em;
+  margin-bottom: 0.5em;
+  border-bottom: 0.125em solid rgba(133, 180, 255, 0.25);
+}
+h4 a {
+  text-decoration: none;
+}
+
+.ico ul {
+  margin-right: 0.25em;
+}
+.ico ul li {
+  display: inline-block;
+  font-size: 0.875em;
+  margin-right: 0.25em;
+}
+
+#dapps article {
+  padding-right: 1em;
+}
+
+.cta li {
+  position: relative;
+  overflow: hidden;
+}
+.cta li a {
+  display: block;
+}
+.cta li:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250%;
+  height: 250%;
+  opacity: 0.125;
+  transform-origin: 15% 0%;
+  transform: rotate(-15deg) scale(2);
+  background: transparent url("//assets.codepen.io/697675/CTSI.svg") no-repeat;
+  background-position: 25% 0;
+  background-size: auto 8em;
+  pointer-events: none;
+}
+.cta li.creepts {
+  background-color: rgba(255, 55, 152, 0.15);
+}
+.cta li.poker {
+  background-color: rgba(51, 162, 254, 0.15);
+}
+.cta li.binarycat {
+  background-color: rgba(88, 254, 202, 0.15);
+}
+.cta li a {
+  text-decoration: none;
+}
+
+ul,
+p {
+  margin-bottom: 0.5em;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  margin-bottom: 0.5em;
+}
+ul li a {
+  display: block;
+  text-decoration: none;
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  background-color: var(--mg);
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.fab,
+.fas {
+  margin-right: 0.5em;
+}
+
+.w33, .w66 {
+  margin-right: initial !important;
+}
+
+.w33 {
+  float: left;
+  width: 33.33%;
+}
+
+.w66 {
+  float: left;
+  width: 66.66%;
+}
+
+@media screen and (max-device-width: 800px), screen and (orientation: portrait) {
+  .w33,
+.w66 {
+    width: 100%;
+    clear: both;
+  }
+
+  #dapps article {
+    padding-right: 0;
+  }
+}

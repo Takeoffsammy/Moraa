@@ -1,0 +1,198 @@
+body {
+  background-color: #1d1e22;
+  color: #ffffff;
+}
+body a {
+  color: #46a049;
+  text-decoration: none;
+}
+body a:hover {
+  color: #4ab24e;
+}
+body ::selection {
+  background-color: #46a049;
+  color: #ffffff;
+}
+body .navigation a {
+  color: #ffffff;
+}
+body .menu-icon {
+  color: #ffffff;
+}
+body .sticky-navigation {
+  background-color: #1d1e22;
+}
+body .sticky-navigation a {
+  color: #ffffff;
+}
+body .btn-main {
+  background-color: #46a049;
+  color: #ffffff;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
+}
+body .btn-main:hover {
+  background-color: #4ab24e;
+}
+body .divider-shape {
+  height: 0;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  border-top: 3px solid rgba(0, 0, 0, 0.15);
+  background-color: #46a049;
+  width: 4rem;
+}
+body .header {
+  background-image: url("d.jpg");
+  background-position: 80% 25%;
+  background-repeat: no-repeat;
+  background-size: 640px auto;
+  background-color: #1d1e22;
+  color: #ffffff;
+}
+body .header .intro-cards .container .row .col-md-4:first-child .card {
+  background-color: #46a049;
+}
+body .header .intro-cards .container .row .col-md-4:first-child .card .divider-shape {
+  background-color: #1d1e22;
+}
+body .header .intro-cards .container .row .col-md-4 .card {
+  background-color: #1d1e22;
+  color: #ffffff;
+}
+body .header .intro-cards .container .row .col-md-4 .card:hover {
+  background-color: #46a049;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in;
+}
+body .header .intro-cards .container .row .col-md-4 .card:hover .divider-shape {
+  background-color: #1d1e22;
+}
+body .services {
+  background-color: #ffffff;
+  color: #1d1e22;
+  border-bottom: 1px solid #cdcdcd;
+}
+body .services .container .row .col-sm-4 .card:hover {
+  background-color: #46a049;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in, color 0.5s ease-in;
+}
+body .work {
+  background-color: #ffffff;
+  color: #1d1e22;
+  border-bottom: 1px solid #cdcdcd;
+}
+body .about {
+  background-color: #ffffff;
+  color: #1d1e22;
+  border-bottom: 1px solid #cdcdcd;
+}
+body .about .card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+body .about .card:hover .card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+body .about .card1 img {
+  max-height: 420px;
+  object-fit: cover;
+}
+body .about .card2 img,
+body .about .card3 img {
+  max-height: 200px;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  body .about .card1 img {
+    max-height: 300px;
+  }
+  body .about .card2 img,
+body .about .card3 img {
+    max-height: 300px;
+    width: 100%;
+  }
+}
+body .testimonial {
+  background-color: #ffffff;
+  color: #1d1e22;
+  border-bottom: 1px solid #cdcdcd;
+}
+body .blog {
+  background-color: #ffffff;
+  color: #1d1e22;
+  border-bottom: 1px solid #cdcdcd;
+}
+body .footer-cta {
+  background-color: #333642;
+  color: #ffffff;
+  border-bottom: 1px solid #cdcdcd;
+}
+body .address-bar {
+  background-color: #46a049;
+  color: #1d1e22;
+  border-bottom: 1px solid #cdcdcd;
+}
+body .address-bar a {
+  color: #ffffff;
+}
+body .address-bar a:hover {
+  color: #1d1e22;
+}
+body .footer-bar {
+  background-color: #1d1e22;
+  color: #ffffff;
+  border-bottom: 1px solid #cdcdcd;
+}
+body .darkthemebtn {
+  position: fixed;
+  right: -0.2rem;
+  bottom: 50px;
+  background-color: #1d1e22;
+  color: #ffffff;
+}
+body .darkthemebtn:hover {
+  color: #46a049;
+}
+body .back-to-top {
+  position: fixed;
+  right: -0.2rem;
+  bottom: 100px;
+  background-color: #1d1e22;
+  color: #ffffff;
+  display: none;
+}
+body .back-to-top:hover {
+  color: #46a049;
+}
+
+.dark-theme .services {
+  background-color: #1d1e22;
+  color: #ffffff;
+}
+.dark-theme .services .container .row .col-sm-4 .card {
+  background-color: #46a049;
+}
+.dark-theme .services .container .row .col-sm-4 .card:hover {
+  color: #1d1e22;
+}
+.dark-theme .work {
+  background-color: #1d1e22;
+  color: #ffffff;
+}
+.dark-theme .about {
+  background-color: #1d1e22;
+  color: #ffffff;
+}
+.dark-theme .testimonial {
+  background-color: #1d1e22;
+  color: #ffffff;
+}
+.dark-theme .blog {
+  background-color: #1d1e22;
+  color: #ffffff;
+}
+.dark-theme .darkthemebtn {
+  background-color: #ffffff;
+  color: #1d1e22;
+}
